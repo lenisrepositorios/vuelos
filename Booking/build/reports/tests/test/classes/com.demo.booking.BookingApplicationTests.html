@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BookingApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BookingApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.demo.booking.html">com.demo.booking</a> &gt; BookingApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.344s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.344s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:07:11.104 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.demo.booking.BookingApplicationTests]: BookingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:07:11.229 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.demo.booking.BookingApplication for test class com.demo.booking.BookingApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-19T18:07:12.610-05:00  INFO 18572 --- [Booking] [    Test worker] c.demo.booking.BookingApplicationTests   : Starting BookingApplicationTests using Java 17.0.10 with PID 18572 (started by Estudiante in C:\Users\Estudiante\Downloads\app\micro\Downloads\vuelos-main\Booking)
+2024-11-19T18:07:12.610-05:00  INFO 18572 --- [Booking] [    Test worker] c.demo.booking.BookingApplicationTests   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-19T18:07:13.168-05:00  INFO 18572 --- [Booking] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-19T18:07:13.279-05:00  INFO 18572 --- [Booking] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interface.
+2024-11-19T18:07:13.505-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f711b53e-38d4-36bc-ac87-6791907773f7
+2024-11-19T18:07:13.626-05:00  WARN 18572 --- [Booking] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-11-19T18:07:13.633-05:00  WARN 18572 --- [Booking] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-11-19T18:07:13.680-05:00  INFO 18572 --- [Booking] [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-11-19T18:07:13.834-05:00  INFO 18572 --- [Booking] [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-11-19T18:07:14.034-05:00  INFO 18572 --- [Booking] [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-11-19T18:07:14.034-05:00  INFO 18572 --- [Booking] [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2024-11-19T18:07:14.052-05:00  INFO 18572 --- [Booking] [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 24.0.7
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7778 MB
+2024-11-19T18:07:14.079-05:00  INFO 18572 --- [Booking] [    Test worker] tc.testcontainers/ryuk:0.5.1             : Pulling docker image: testcontainers/ryuk:0.5.1. Please be patient; this may take some time but only needs to be done once.
+2024-11-19T18:07:14.318-05:00  INFO 18572 --- [Booking] [    Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-11-19T18:07:16.123-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Starting to pull image
+2024-11-19T18:07:16.137-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2024-11-19T18:07:17.420-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (334 KB/? MB)
+2024-11-19T18:07:17.670-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (4 MB/? MB)
+2024-11-19T18:07:17.766-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (5 MB/5 MB)
+2024-11-19T18:07:17.768-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (5 MB/5 MB)
+2024-11-19T18:07:17.845-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (5 MB/5 MB)
+2024-11-19T18:07:17.892-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/5 MB)
+2024-11-19T18:07:17.905-05:00  INFO 18572 --- [Booking] [eam--1761815518] tc.testcontainers/ryuk:0.5.1             : Pull complete. 3 layers, pulled in 1s (downloaded 5 MB at 5 MB/s)
+2024-11-19T18:07:17.926-05:00  INFO 18572 --- [Booking] [    Test worker] tc.testcontainers/ryuk:0.5.1             : Creating container for image: testcontainers/ryuk:0.5.1
+2024-11-19T18:07:18.048-05:00  INFO 18572 --- [Booking] [    Test worker] tc.testcontainers/ryuk:0.5.1             : Container testcontainers/ryuk:0.5.1 is starting: 48197d319b19eb75d2d09d4465be6470868b4ce635f4b0aee16e3cec60c35d46
+2024-11-19T18:07:18.347-05:00  INFO 18572 --- [Booking] [    Test worker] tc.testcontainers/ryuk:0.5.1             : Container testcontainers/ryuk:0.5.1 started in PT4.2883871S
+2024-11-19T18:07:18.351-05:00  INFO 18572 --- [Booking] [    Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-11-19T18:07:18.351-05:00  INFO 18572 --- [Booking] [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2024-11-19T18:07:18.351-05:00  INFO 18572 --- [Booking] [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2024-11-19T18:07:18.353-05:00  INFO 18572 --- [Booking] [    Test worker] tc.mysql:latest                          : Creating container for image: mysql:latest
+2024-11-19T18:07:18.430-05:00  INFO 18572 --- [Booking] [    Test worker] tc.mysql:latest                          : Container mysql:latest is starting: 685b122828d057c3891792a2d6559ae2ba7b78b893f713378cfc5779cb67a02d
+2024-11-19T18:07:18.736-05:00  INFO 18572 --- [Booking] [    Test worker] tc.mysql:latest                          : Waiting for database connection to become available at jdbc:mysql://localhost:55173/test using query 'SELECT 1'
+2024-11-19T18:07:26.762-05:00  INFO 18572 --- [Booking] [    Test worker] tc.mysql:latest                          : Container mysql:latest started in PT8.4084212S
+2024-11-19T18:07:26.762-05:00  INFO 18572 --- [Booking] [    Test worker] tc.mysql:latest                          : Container is started (JDBC URL: jdbc:mysql://localhost:55173/test)
+2024-11-19T18:07:27.859-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T18:07:27.975-05:00  INFO 18572 --- [Booking] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-19T18:07:28.123-05:00  INFO 18572 --- [Booking] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4be7acd9
+2024-11-19T18:07:28.125-05:00  INFO 18572 --- [Booking] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-19T18:07:28.171-05:00  INFO 18572 --- [Booking] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-19T18:07:28.248-05:00  INFO 18572 --- [Booking] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-19T18:07:28.296-05:00  INFO 18572 --- [Booking] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-19T18:07:28.551-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-19T18:07:29.177-05:00  INFO 18572 --- [Booking] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-19T18:07:29.177-05:00  INFO 18572 --- [Booking] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-19T18:07:29.400-05:00  WARN 18572 --- [Booking] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-19T18:07:29.415-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'microservicios-flight' URL not provided. Will try picking an instance via load-balancing.
+2024-11-19T18:07:30.981-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T18:07:31.019-05:00  INFO 18572 --- [Booking] [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-11-19T18:07:31.050-05:00  WARN 18572 --- [Booking] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-11-19T18:07:31.066-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-11-19T18:07:31.097-05:00  INFO 18572 --- [Booking] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-11-19T18:07:31.097-05:00  INFO 18572 --- [Booking] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-11-19T18:07:31.097-05:00  INFO 18572 --- [Booking] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1732057651097 with initial instances count: 0
+2024-11-19T18:07:31.104-05:00  INFO 18572 --- [Booking] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BOOKING with eureka with status UP
+2024-11-19T18:07:31.119-05:00  INFO 18572 --- [Booking] [    Test worker] c.demo.booking.BookingApplicationTests   : Started BookingApplicationTests in 19.76 seconds (process running for 20.766)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 19/11/2024, 6:07:32 p. m.</p>
+</div>
+</div>
+</body>
+</html>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.607s</div>
+<div class="counter">0.613s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.607s</td>
+<td class="success">0.613s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +87,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>18:01:39.347 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.discoverservices.DiscoverservicesApplicationTests]: DiscoverservicesApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:01:39.420 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.discoverservices.DiscoverservicesApplication for test class com.example.discoverservices.DiscoverservicesApplicationTests
+<pre>17:29:49.215 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.discoverservices.DiscoverservicesApplicationTests]: DiscoverservicesApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:29:49.305 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.discoverservices.DiscoverservicesApplication for test class com.example.discoverservices.DiscoverservicesApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -99,34 +99,31 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-09-27T18:01:39.725-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : Starting DiscoverservicesApplicationTests using Java 17.0.10 with PID 23896 (started by Estudiante in C:\Users\Estudiante\Downloads\carrito\discoverservices)
-2024-09-27T18:01:39.726-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-09-27T18:01:40.425-05:00  INFO 23896 --- [discoverservices] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2e289de8-00ad-3403-88a2-0c043880417f
-2024-09-27T18:01:40.482-05:00  WARN 23896 --- [discoverservices] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-09-27T18:01:40.485-05:00  WARN 23896 --- [discoverservices] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-09-27T18:01:41.443-05:00  WARN 23896 --- [discoverservices] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-09-27T18:01:41.654-05:00  INFO 23896 --- [discoverservices] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-09-27T18:01:41.669-05:00  INFO 23896 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-09-27T18:01:41.670-05:00  INFO 23896 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-09-27T18:01:41.672-05:00  INFO 23896 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1727478101671 with initial instances count: 0
-2024-09-27T18:01:41.705-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-09-27T18:01:41.708-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
-2024-09-27T18:01:41.814-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-09-27T18:01:41.815-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-09-27T18:01:41.815-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-09-27T18:01:41.815-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-09-27T18:01:41.862-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
-2024-09-27T18:01:41.868-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-09-27T18:01:41.868-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-09-27T18:01:41.936-05:00  INFO 23896 --- [discoverservices] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-09-27T18:01:41.973-05:00  INFO 23896 --- [discoverservices] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERSERVICES with eureka with status UP
-2024-09-27T18:01:41.987-05:00  INFO 23896 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : Started DiscoverservicesApplicationTests in 2.466 seconds (process running for 3.327)
-2024-09-27T18:01:41.992-05:00  INFO 23896 --- [discoverservices] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-09-27T18:01:41.993-05:00  INFO 23896 --- [discoverservices] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-09-27T18:01:41.993-05:00  INFO 23896 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-09-27T18:01:41.993-05:00  INFO 23896 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-09-27T18:01:41.993-05:00  INFO 23896 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-09-27T18:01:41.996-05:00  INFO 23896 --- [discoverservices] [      Thread-12] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-11-19T17:29:50.667-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : Starting DiscoverservicesApplicationTests using Java 17.0.10 with PID 20400 (started by Estudiante in C:\Users\Estudiante\Downloads\app\micro\Downloads\vuelos-main\discoverservices)
+2024-11-19T17:29:50.667-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-19T17:29:51.498-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2e289de8-00ad-3403-88a2-0c043880417f
+2024-11-19T17:29:51.570-05:00  WARN 20400 --- [discoverservices] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-11-19T17:29:51.570-05:00  WARN 20400 --- [discoverservices] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-11-19T17:29:53.143-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T17:29:54.494-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T17:29:54.539-05:00  WARN 20400 --- [discoverservices] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-11-19T17:29:54.727-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-11-19T17:29:54.743-05:00  INFO 20400 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-11-19T17:29:54.743-05:00  INFO 20400 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-11-19T17:29:54.743-05:00  INFO 20400 --- [discoverservices] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1732055394743 with initial instances count: 0
+2024-11-19T17:29:54.791-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-11-19T17:29:54.791-05:00  WARN 20400 --- [discoverservices] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-11-19T17:29:54.805-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-11-19T17:29:54.805-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-11-19T17:29:54.885-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-19T17:29:54.926-05:00  INFO 20400 --- [discoverservices] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERSERVICES with eureka with status UP
+2024-11-19T17:29:54.935-05:00  INFO 20400 --- [discoverservices] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-11-19T17:29:54.935-05:00  INFO 20400 --- [discoverservices] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-11-19T17:29:54.935-05:00  INFO 20400 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-11-19T17:29:54.935-05:00  INFO 20400 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-11-19T17:29:54.936-05:00  INFO 20400 --- [discoverservices] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-11-19T17:29:54.937-05:00  INFO 20400 --- [discoverservices] [      Thread-12] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-11-19T17:29:54.937-05:00  INFO 20400 --- [discoverservices] [    Test worker] c.e.d.DiscoverservicesApplicationTests   : Started DiscoverservicesApplicationTests in 5.531 seconds (process running for 6.423)
 </pre>
 </span>
 </div>
@@ -138,7 +135,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.10.2</a> at 27/09/2024, 6:01:42 p. m.</p>
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 19/11/2024, 5:29:56 p. m.</p>
 </div>
 </div>
 </body>

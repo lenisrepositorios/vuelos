@@ -34,8 +34,8 @@ public class FlightServiceImpl implements FlightService{
     }
 
     @Override
-    public FlightDto updateFlightbyID(Long id, FlightToSaveDto flight){
-        return flightRepository.findById(id).map(flight1 ->{
+    public FlightDto updateFlightbyID(Long flightNumber, FlightToSaveDto flight){
+        return flightRepository.findById(flightNumber).map(flight1 ->{
             flight1.setFlightNumber(flight.flightNumber());
             Flight savedFlight = flightRepository.save(flight1);
             return flightMapper.toDto(savedFlight);

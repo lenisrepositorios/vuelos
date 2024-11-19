@@ -23,21 +23,21 @@ public class FlightController {
         return ResponseEntity.status(HttpStatus.CREATED).body(savedFlight);
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<FlightDto> getFlightById(@PathVariable Long id) {
-        FlightDto flightDto = flightService.getFlightbyID(id);
-        return ResponseEntity.ok(flightDto);
+    @GetMapping("/{flightNumber}")
+    public ResponseEntity<FlightDto> getFlightByFlightNumber(@PathVariable Long flightNumber) {
+        FlightDto flight = flightService.getFlightbyID(flightNumber);
+        return ResponseEntity.ok(flight);
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<FlightDto> updateFlightById(@PathVariable Long id, @RequestBody FlightToSaveDto flightToSaveDto) {
-        FlightDto updatedFlight = flightService.updateFlightbyID(id, flightToSaveDto);
+    @PutMapping("/{flightNumber}")
+    public ResponseEntity<FlightDto> updateFlightByFlightNumber(@PathVariable Long flightNumber, @RequestBody FlightToSaveDto flightToSaveDto) {
+        FlightDto updatedFlight = flightService.updateFlightbyID(flightNumber, flightToSaveDto);
         return ResponseEntity.ok(updatedFlight);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteFlightById(@PathVariable Long id) {
-        flightService.deleteFlightbyID(id);
+    @DeleteMapping("/{flightNumber}")
+    public ResponseEntity<Void> deleteFlightById(@PathVariable Long flightNumber) {
+        flightService.deleteFlightbyID(flightNumber);
         return ResponseEntity.noContent().build();
     }
 }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MicroserviciosFlightApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MicroserviciosFlightApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.microservicios_flight.html">com.example.microservicios_flight</a> &gt; MicroserviciosFlightApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.357s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.357s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:28:51.047 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.microservicios_flight.MicroserviciosFlightApplicationTests]: MicroserviciosFlightApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:28:51.169 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.microservicios_flight.MicroserviciosFlightApplication for test class com.example.microservicios_flight.MicroserviciosFlightApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-11-19T17:28:52.543-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] e.m.MicroserviciosFlightApplicationTests : Starting MicroserviciosFlightApplicationTests using Java 17.0.10 with PID 19676 (started by Estudiante in C:\Users\Estudiante\Downloads\app\micro\Downloads\vuelos-main\microservicios_flight)
+2024-11-19T17:28:52.543-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] e.m.MicroserviciosFlightApplicationTests : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-11-19T17:28:53.120-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-19T17:28:53.231-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interface.
+2024-11-19T17:28:53.452-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6bd66ebb-5d6b-3f61-8aeb-0870f74ca260
+2024-11-19T17:28:53.563-05:00  WARN 19676 --- [microservicios-flight] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-11-19T17:28:53.563-05:00  WARN 19676 --- [microservicios-flight] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-11-19T17:28:53.621-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2024-11-19T17:28:53.621-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-11-19T17:28:53.775-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-11-19T17:28:54.006-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-11-19T17:28:54.006-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2024-11-19T17:28:54.021-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 24.0.7
+  API Version: 1.43
+  Operating System: Docker Desktop
+  Total Memory: 7778 MB
+2024-11-19T17:28:54.039-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.testcontainers/ryuk:0.7.0             : Creating container for image: testcontainers/ryuk:0.7.0
+2024-11-19T17:28:54.355-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-11-19T17:28:54.446-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.testcontainers/ryuk:0.7.0             : Container testcontainers/ryuk:0.7.0 is starting: ab3be626e7e6113ad8d6e7d9c9a86b72935e0e5bf9efccaf9abae81405569bbf
+2024-11-19T17:28:54.722-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.testcontainers/ryuk:0.7.0             : Container testcontainers/ryuk:0.7.0 started in PT0.6833678S
+2024-11-19T17:28:54.726-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-11-19T17:28:54.726-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2024-11-19T17:28:54.727-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2024-11-19T17:28:54.729-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.mysql:latest                          : Creating container for image: mysql:latest
+2024-11-19T17:28:54.798-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.mysql:latest                          : Container mysql:latest is starting: c1e623df0c84283c978c203dd391c141876e9b938434ca8632c56ace6450523c
+2024-11-19T17:28:55.093-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.mysql:latest                          : Waiting for database connection to become available at jdbc:mysql://localhost:54639/test using query 'SELECT 1'
+2024-11-19T17:29:02.023-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.mysql:latest                          : Container mysql:latest started in PT7.29408S
+2024-11-19T17:29:02.023-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] tc.mysql:latest                          : Container is started (JDBC URL: jdbc:mysql://localhost:54639/test)
+2024-11-19T17:29:03.115-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T17:29:03.199-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-19T17:29:03.354-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@744fb110
+2024-11-19T17:29:03.356-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-19T17:29:03.399-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-19T17:29:03.446-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-19T17:29:03.494-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-19T17:29:03.756-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-19T17:29:04.385-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-19T17:29:04.385-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-19T17:29:04.701-05:00  WARN 19676 --- [microservicios-flight] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-19T17:29:06.150-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-11-19T17:29:06.188-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-11-19T17:29:06.219-05:00  WARN 19676 --- [microservicios-flight] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-11-19T17:29:06.251-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-11-19T17:29:06.266-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-11-19T17:29:06.266-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-11-19T17:29:06.266-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1732055346266 with initial instances count: 0
+2024-11-19T17:29:06.282-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICROSERVICIOS-FLIGHT with eureka with status UP
+2024-11-19T17:29:06.288-05:00  INFO 19676 --- [microservicios-flight] [    Test worker] e.m.MicroserviciosFlightApplicationTests : Started MicroserviciosFlightApplicationTests in 15.018 seconds (process running for 16.016)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 19/11/2024, 5:29:07 p. m.</p>
+</div>
+</div>
+</body>
+</html>

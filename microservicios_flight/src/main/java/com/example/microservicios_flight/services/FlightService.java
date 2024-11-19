@@ -7,9 +7,9 @@ import java.util.List;
 public interface FlightService {
     FlightDto saveFlight(FlightToSaveDto flightToSaveDto);
 
-    FlightDto getFlightbyID(Long id);
+    FlightDto getFlightbyID(Long flightNumber);
 
-    FlightDto updateFlightbyID(Long id, FlightToSaveDto flight);
+    FlightDto updateFlightbyID(Long flightNumber, FlightToSaveDto flight);
 
-    void deleteFlightbyID(Long id);
+    void deleteFlightbyID(Long flightNumber);
 }
